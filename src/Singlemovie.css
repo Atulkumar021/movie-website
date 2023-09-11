@@ -1,0 +1,38 @@
+.singlesection{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.contaienr{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #183D3D;
+}
+.card{
+    width:540px;
+    
+}
+.button{
+    text-decoration: none;
+    color: aliceblue;
+   
+}
+
+@media screen and (max-width:900px) {
+    /* .singlesection{
+        height: 100vh;
+    } */
+    .card{
+        width: 320px;
+    }
+    .movieimg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
