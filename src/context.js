@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
 
-export const apiurl=`https://www.omdbapi.com/?apikey=${process.env.REACT_APP_API_KEY}`
+export const apiurl=`https://www.omdbapi.com/?apikey=2b5ee46f`
 const AppContext = React.createContext();
 const AppProvider = ({ children }) => {
   const [query, setquery] = useState("titanic");
